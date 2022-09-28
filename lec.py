@@ -17,18 +17,13 @@
 
 #     Задача 2. Напишите программу для. проверки истинности утверждения ¬(X ⋁ Y ⋁ Z) = ¬X ⋀ ¬Y ⋀ ¬Z для
 #   всех значений предикат.
-u = False
-for x in range(0, 2):
-    for y in range(0, 2):
-        for z in range(0, 2):
-            if (not (x | y | z)) == (not x) & (not y) & (not z):
-                u = True
-# for x in range (0, 2):
-#     for y in range (0, 2):
-#         for z in range (0, 2):
-#             if (not (x or y or z)) == (not x) and (not y) and (not z):
-#                 A = True
-print(u)
+# u = False
+# for x in range(0, 2):
+#     for y in range(0, 2):
+#         for z in range(0, 2):
+#             if (not (x | y | z)) == (not x) & (not y) & (not z):
+#                 u = True
+# print(u)
 
 
 #     Задача 3. Напишите программу, которая принимает на вход координаты точки (X и Y), причём X ≠ 0 и Y ≠ 0
